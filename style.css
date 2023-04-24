@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(252, 220, 220);
+}
+
+header {
+    background-color: #d13434;
+
+    color: white;
+    height: 20%;
+    text-align: center;
+
+    font-size: 2em;
+    font-family: 'Dosis';
+    font-weight: bold;
+    padding: 15px;
+}
+
+#game {
+    background-color: #ec4b60;
+    width: 450px;
+    height: 450px;
+    padding: 20px;
+    border-radius: 30px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -60%);
+}
+
+tr>td {
+    border: 1px solid #ffbdbd;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    border-radius: 15px;
+    background-color: #fedbdb;
+}
+
+tr>td {
+    text-align: center;
+    font-size: 2em;
+    user-select: none;
+}
+
+tr>td:hover {
+    background-color: rgb(255, 234, 234);
+}
+
+#btnsDiv {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translateX(-50%);
+}
+
+.btns {
+    padding: 8px;
+    margin: 5px;
+    font-size: 1.2em;
+    background-color: #d74242;
+    color: white;
+    border-radius: 2px;
+
+    border: none;
+    user-select: none;
+    outline: none;
+}
+
+.linha {
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: #ec4b60;
+    margin-top: 8px;
+}
+
+.placarIndividual {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 1.7em;
+}
+
+#placarX {
+    position: absolute;
+    left: 30%;
+    transform: translate(-35%, 90%);
+}
+
+#placarO {
+    position: absolute;
+    left: 70%;
+    transform: translate(-60%, 90%);
+}
+
+.numPlacar {
+    color: #ec4b60;
+    text-align: center;
+    font-family: 'Dosis';
+    font-weight: bold;
+}
+
+#empate {
+    color: #d13434;
+    font-weight: bold;
+    font-family: 'Dosis';
+    font-size: 1.7em;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.marcado {}
